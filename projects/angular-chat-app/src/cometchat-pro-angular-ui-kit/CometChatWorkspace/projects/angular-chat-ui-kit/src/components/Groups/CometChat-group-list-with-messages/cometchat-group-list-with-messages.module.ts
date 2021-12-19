@@ -9,7 +9,7 @@ import { CometChatMessages } from "../../Messages/CometChat-messages/cometchat-m
 
 import { CometChatImageViewer } from "../../Messages/CometChat-image-viewer/cometchat-image-viewer.module";
 import { CometChatGroupDetails } from "../CometChat-group-details/cometchat-group-details.module";
-import { CometChatIncomingCall } from "../../Calls/CometChat-incoming-call/cometchat-incoming-call.module";
+//import { CometChatIncomingCall } from "../../Calls/CometChat-incoming-call/cometchat-incoming-call.module";
 import { CometChatOutgoingCall } from "../../Calls/CometChat-outgoing-call/cometchat-outgoing-call.module";
 
 @NgModule({
@@ -21,8 +21,8 @@ import { CometChatOutgoingCall } from "../../Calls/CometChat-outgoing-call/comet
     //CometChatMessageThread,
     CometChatGroupDetails,
     CometChatImageViewer,
-    CometChatIncomingCall,
-    CometChatOutgoingCall,
+ //   CometChatIncomingCall,
+  //  CometChatOutgoingCall,
     BrowserModule,
     BrowserAnimationsModule,
   ],
